@@ -1,5 +1,5 @@
 all:
-	-@quarto render -M engine:jupyter --execute-dir .
+	-@quarto render
 
 clean:
 	-rm -rf _output

@@ -1,3 +1,5 @@
+engine: jupyter
+fig-format: png
 project:
   title: "report"
   output-dir: "_output"
