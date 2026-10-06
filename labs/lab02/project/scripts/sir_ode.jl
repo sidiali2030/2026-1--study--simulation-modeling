@@ -174,7 +174,7 @@ savefig(plt6, plotsdir(script_name, "sir_effective_R.png"))
 savefig(plt7, plotsdir(script_name, "sir_panel.png"))
 # Бенчмарк для оценки производительности
 println("\nБенчмарк решения:")
-@benchmark solve(prob_ode, dt = δt)
+# @benchmark solve(prob_ode, dt = δt)
 # Дополнительный анализ
 println("\n=== АНАЛИЗ РЕЗУЛЬТАТОВ ===")
 println("Общая численность популяции (контроль): N = ", round(df_ode.N[1], digits=1))
